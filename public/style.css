@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/portoMoniz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(355deg, rgba(18,44,147,1) 11%, rgba(140,170,204,1) 100%);
+    margin-top: 0;
+    height: 5vh;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 300%;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    margin-inline: 3em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    margin-top: 4.5em;
+    text-align: center;
+    font-style: italic;
+    color: green;
+    font-weight: bold;
+}
